@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>Be A Scientist!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <h1> Be A Scientist! </h1>
+    </div>
+
+    <div class="quiz-container">
+        <div class="progress-bar-container" id="progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <div id="question">"To be or not to be, thats the question" Press "Start quiz" to start the scientific quiz! </div>
+        
+        <div class="option-container" id="option-container"></div>
+        
+        <p class="result" id="result"> Score: 0 </p>
+
+        <button id="start-btn"> Start Quiz </button>
+    </div>
+
+    <!-- Countdown Timer -->
+    <div id="timer" class="timer">
+        <span id="countdown"> 10 </span>
+    </div>
+
+    <audio controls loop>
+        <source src="Undertale OST_ 002 - Start Menu.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
